@@ -1,0 +1,16 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Added some headers in the settings to you can update gameplay properties such as adding jokers, -->
+    <!--number of decks to use and if you want cards to be reshuffled.-->
+
+    <header
+        android:fragment="com.kylepastor.justcards.SettingsActivity$GameplayPreferenceFragment"
+        android:icon="@drawable/cards"
+        android:title="Gameplay" />
+
+    <header
+        android:fragment="com.kylepastor.justcards.SettingsActivity$AccessibilityPreferenceFragment"
+        android:icon="@drawable/accessibility"
+        android:title="Accessibility" />
+
+</preference-headers>

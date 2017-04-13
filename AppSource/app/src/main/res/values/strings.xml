@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">JustCards</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="pref_title_jokers_on">Include jokers in deck</string>
+    <string name="pref_description_jokers_on">If you change this option the deck will reshuffle and include jokers.</string>
+
+    <string name="pref_title_keep_drawn">Do not remove drawn cards</string>
+    <string name="pref_description_keep_drawn">Cards that have already been drawn are not removed from the deck.</string>
+
+
+    <string name="pref_number_of_decks_title">Set number of decks</string>
+    <string-array name="pref_number_of_decks_titles">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="pref_number_of_decks_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+
+    <string name="pref_title_voice_on">Read out drawn cards</string>
+    <string name="pref_description_voice_on">For those that have trouble seeing.  This option reads aloud the cards that are drawn.</string>
+
+</resources>

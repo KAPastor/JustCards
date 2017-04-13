@@ -1,0 +1,7 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="voice_on_switch"
+        android:summary="@string/pref_description_voice_on"
+        android:title="@string/pref_title_voice_on" />
+</PreferenceScreen>
